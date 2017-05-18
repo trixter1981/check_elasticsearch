@@ -122,7 +122,7 @@ while test -n "$1"; do
     shift
 done
 
-if [ "$authentication" == True ]; then 
+if [ "$authentication" = True ]; then 
     pass="--password=${pass}"
     user="--user=${user}"
 fi 
